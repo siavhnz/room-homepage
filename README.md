@@ -38,7 +38,7 @@ Users should be able to:
 
 ## My process
 
-- create components
+- Identify components
 -
 
 ### Built with

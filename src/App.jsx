@@ -1,10 +1,11 @@
+import Room from "./pages/Room"
 
 
 function App() {
 
   return (
     <>
-      room home apge
+      <Room />
     </>
   )
 }
