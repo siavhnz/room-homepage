@@ -38,8 +38,9 @@ Users should be able to:
 
 ## My process
 
+- Install React+Vite, Prepare assets, Initial git
 - Identify components
--
+- Create components (Header, Menu, Slider, Room page)
 
 ### Built with
 
