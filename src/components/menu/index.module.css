@@ -1,3 +1,7 @@
+.desktop-menu {
+    display: none;
+}
+
 .hambur {
     position: absolute;
     left: var(--menu-x-margin);
@@ -20,4 +24,20 @@
     display: flex;
     column-gap: 1.95rem;
     font-size: 0.94rem;
+}
+
+@media (min-width: 37.5em) { /* 600px */
+
+    .desktop-menu {
+        display: block;
+    }
+
+    .hambur {
+        display: none;
+    }
+
+    .menu-items {
+        color: var(--color-white);
+        column-gap: 2rem;
+    }
 }

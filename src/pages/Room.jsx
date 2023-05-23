@@ -7,7 +7,7 @@ const Room = () => {
     return <Layout>
         <Slider />
         <div className={styles.about}>
-            <img alt="a comfortable sofa" src="/images/image-about-dark.jpg" />
+            <img alt="a comfortable sofa" src="/images/image-about-dark.jpg" className={styles["img-left"]} />
             <div className={styles.content}>
                 <h1>
                     About our furniture
@@ -19,7 +19,7 @@ const Room = () => {
                     or anything in between. Product specialists are available to help you create your dream space.
                 </p>
             </div>
-            <img alt="a nice chair" src="/images/image-about-light.jpg" />
+            <img alt="a nice chair" src="/images/image-about-light.jpg" className={styles["img-right"]} />
         </div>
     </Layout>
 

@@ -11,21 +11,13 @@ const Slider = () => {
     return <div className={styles.slider}>
         {
             slides.map((slide, index) => {
-                return <div key={index} className={styles.slide}>
+                return <div className={styles.slide} key={index}>
                     <div className={styles["image-container"]}>
                         <picture>
                             <source media="(max-width:599px)" srcset={slide.mobileImage}></source>
                             <source media="(min-width:600px)" srcset={slide.desktopImage}></source>
                             <img src={slide.mobileImage} alt={slide.title} />
                         </picture>
-                        <div className={styles.controls}>
-                            <button aria-label="go to previous slide">
-                                <Left aria-hidden={true} focusable={false} />
-                            </button>
-                            <button aria-label="go to next slide">
-                                <Right aria-hidden={true} focusable={false} />
-                            </button>
-                        </div>
                     </div>
                     <div className={styles.content}>
                         <h2 className={styles.title}>
@@ -40,6 +32,14 @@ const Slider = () => {
                                 <Arrow aria-hidden={true} focusable={false} />
                             </span>
                         </a>
+                    </div>
+                    <div className={styles.controls}>
+                        <button aria-label="go to previous slide">
+                            <Left aria-hidden={true} focusable={false} />
+                        </button>
+                        <button aria-label="go to next slide">
+                            <Right aria-hidden={true} focusable={false} />
+                        </button>
                     </div>
                 </div>
             })

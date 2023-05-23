@@ -12,3 +12,17 @@
     align-self: center;
     padding-top: 0.25rem;
 }
+
+
+@media (min-width: 37.5em) { /* 600px */
+    .header {
+        justify-content: flex-start;
+        column-gap: 3.5rem;
+        padding: 3.75rem 4rem;
+    }
+
+    .logo {
+        order: -1;
+        padding: 0;
+    }
+}

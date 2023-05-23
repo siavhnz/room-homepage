@@ -42,8 +42,16 @@ const Menu = () => {
                     </ul>
                 </nav>
             </>
-
         }
+
+        <nav className={styles["desktop-menu"]}>
+            <ul className={styles["menu-items"]}>
+                <li>home</li>
+                <li>shop</li>
+                <li>about</li>
+                <li>contact</li>
+            </ul>
+        </nav>
     </>
 }
 
