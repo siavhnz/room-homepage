@@ -1,0 +1,26 @@
+
+.about .content {
+    padding: 3rem 2rem 2.7rem;
+}
+
+.content h1 {
+    font-family: var(--main-font);
+    font-size: 0.9rem;
+    font-weight: 600;
+    line-height: 1.5rem;
+    letter-spacing: 0.357rem;
+    text-transform: uppercase;
+}
+
+.content p {
+    font-family: var(--main-font);
+    color: var(--color-dark-gray);
+    font-size: 0.95rem;
+    line-height: 1.35rem;
+    font-weight: 500;
+    margin-top: 1rem;
+}
+
+.about img {
+    width: 100%;
+}

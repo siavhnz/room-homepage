@@ -1,0 +1,23 @@
+.hambur {
+    position: absolute;
+    left: var(--menu-x-margin);
+    padding-top: 0.25rem;
+}
+
+.menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: var(--color-white);
+    display: flex;
+    justify-content: space-between;
+    padding: var(--menu-y-margin) var(--menu-x-margin);
+}
+
+.menu-items {
+    font-family: var(--main-font);
+    display: flex;
+    column-gap: 1.95rem;
+    font-size: 0.94rem;
+}

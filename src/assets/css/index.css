@@ -1,0 +1,11 @@
+:root {
+    --main-font: 'League Spartan', sans-serif;
+
+    --color-white: hsl(0, 0%, 100%);
+    --color-dark-gray: hsl(0, 0%, 63%);
+    --color-very-dark-gray: hsl(0, 0%, 27%);
+    --color-black: hsl(0, 0%, 0%);
+
+    --menu-y-margin: 2.75rem;
+    --menu-x-margin: 1.5rem;
+}

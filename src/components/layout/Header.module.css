@@ -1,0 +1,14 @@
+.header {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: var(--menu-y-margin) var(--menu-x-margin);
+    min-height: 1.5rem;
+    z-index: 1;
+}
+
+.logo {
+    align-self: center;
+    padding-top: 0.25rem;
+}

@@ -1,15 +1,14 @@
 import Layout from "../components/layout";
 import Slider from "../components/slider";
+import styles from "./Room.module.css";
 
 const Room = () => {
 
     return <Layout>
         <Slider />
-        <div>
-            <div>
-                <img alt="a comfortable sofa" src="/images/image-about-dark.jpg" />
-            </div>
-            <div>
+        <div className={styles.about}>
+            <img alt="a comfortable sofa" src="/images/image-about-dark.jpg" />
+            <div className={styles.content}>
                 <h1>
                     About our furniture
                 </h1>
@@ -20,9 +19,7 @@ const Room = () => {
                     or anything in between. Product specialists are available to help you create your dream space.
                 </p>
             </div>
-            <div>
-                <img alt="a nice chair" src="/images/image-about-light.jpg" />
-            </div>
+            <img alt="a nice chair" src="/images/image-about-light.jpg" />
         </div>
     </Layout>
 
