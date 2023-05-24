@@ -1,0 +1,14 @@
+
+.menu-items {
+    font-family: var(--main-font);
+    display: flex;
+    column-gap: 1.95rem;
+    font-size: 0.94rem;
+}
+
+@media (min-width: 37.5em) { /* 600px */
+    .menu-items {
+        color: var(--color-white);
+        column-gap: 2rem;
+    }
+}

@@ -43,6 +43,7 @@ Users should be able to:
 - Create components (Header, Menu, Slider, Room page)
 - Work on mobile design based on `design` folder (375px)
 - work on desktop design based on `design` folder (1440px)
+- Work on functionalities (slider, menu)
 
 ### Built with
 
