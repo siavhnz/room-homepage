@@ -26,6 +26,20 @@
     font-size: 0.94rem;
 }
 
+.menu-items li a{
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-items li a:hover .underline {
+    transition:all 1s ease;
+    height: 2px;
+    background-color:var(--color-white);
+    width: 50%;
+    margin: auto;
+}
+
 @media (min-width: 37.5em) { /* 600px */
 
     .desktop-menu {

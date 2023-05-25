@@ -65,10 +65,30 @@ const Menu = () => {
 
         <nav className={styles["desktop-menu"]}>
             <ul className={styles["menu-items"]}>
-                <li>home</li>
-                <li>shop</li>
-                <li>about</li>
-                <li>contact</li>
+                <li>
+                    <a href="#">
+                        <span>home</span>
+                        <div className={styles.underline}></div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span>shop</span>
+                        <div className={styles.underline}></div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span>about</span>
+                        <div className={styles.underline}></div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span>contact</span>
+                        <div className={styles.underline}></div>
+                    </a>
+                </li>
             </ul>
         </nav>
     </>

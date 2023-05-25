@@ -41,13 +41,16 @@ Users should be able to:
 - Install React+Vite, Prepare assets, Initial git
 - Identify components
 - Create components (Header, Menu, Slider, Room page)
-- Work on mobile design based on `design` folder (375px)
-- work on desktop design based on `design` folder (1440px)
-- Work on functionalities (slider, menu)
+- Work on :
+  - mobile design based on `design` folder (375px)
+  - desktop design based on `design` folder (1440px)
+  - functionalities (slider, menu)
+  - active states (like mouse hover on menu)
 
 ### Built with
 
 - React
+- Framer Motion
 - Mobile-first workflow
 - Semantic HTML5 markup
 - CSS Module
