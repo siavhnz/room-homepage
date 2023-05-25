@@ -12,7 +12,6 @@ This is a solution to the [Room homepage challenge on Frontend Mentor](https://w
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
@@ -28,13 +27,13 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![screenshot](./screenshot/screenshot.png)
 
 ### Links
 
-- Solution: [frontendmentor.io](https://www.frontendmentor.io/solutions/?)
+- Solution: [frontendmentor.io](https://www.frontendmentor.io/solutions/room-homepage-YCAUsEVO1r)
 
-- Live Site: [cloudflare](https://?.pages.dev/)
+- Live Site: [cloudflare](https://room-homepage-f4v.pages.dev/)
 
 ## My process
 
@@ -57,9 +56,11 @@ Users should be able to:
 
 ### What I learned
 
+I explored more on framer motion and had some layout challenges
+
 ### Continued development
 
-### Useful resources
+Continue Working on frontendmentor.io challenges with React, Framer Motion, ...
 
 ## Author
 
